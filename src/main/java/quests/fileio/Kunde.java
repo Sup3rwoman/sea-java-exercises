@@ -1,6 +1,6 @@
 package quests.fileio;
 
-public class Kunde {
+public class Kunde implements Comparable<Kunde>{
 
     private String id;
     private String name;
@@ -36,4 +36,8 @@ public class Kunde {
         this.email = email;
     }
 
+    @Override
+    public int compareTo(Kunde kunde) {
+        return name.compareTo(kunde.name);
+    }
 }
