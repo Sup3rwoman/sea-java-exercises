@@ -23,7 +23,7 @@ public class FileHandling {
         }
 
         // 5. In this FileHandling class, create a static method searchForId which takes the List<Kunde> and a String searchId, searches for the Kunde with this searchId as ID and returns the name
-        System.out.println(searchForId(customerList, "ETL99CDM2KS")); //ETL99CDM2KS,Alfonso Fischer,nulla.cras@liberoettristique.ca
+        System.out.println("Searched Name: " + searchForId(customerList, "ETL99CDM2KS")); //ETL99CDM2KS,Alfonso Fischer,nulla.cras@liberoettristique.ca
 
         // 6. (Opt.) In this class, create a static method sortKunden which takes the List<Kunde>, sorts this list for the names and returns the sorted List<Kunde>
         sortKunden(customerList);
